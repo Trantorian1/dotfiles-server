@@ -8,7 +8,7 @@
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "trantorian";
-  home.homeDirectory = "/home/trantorian";
+  home.homeDirectory = "/data/home/trantorian";
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
@@ -24,6 +24,7 @@
   home.packages = with pkgs; [
     git
     neovim
+    docker
   ];
 
   # Home Manager can also manage your environment variables through
