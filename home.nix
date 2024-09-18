@@ -1,6 +1,8 @@
-{ config, pkgs, ... }:
-
 {
+  config,
+  pkgs,
+  ...
+}: {
   imports = [
     ./shell/zsh.nix
   ];
@@ -26,6 +28,8 @@
     neovim
     docker
     docker-compose
+    htop
+    jq
   ];
 
   # Home Manager can also manage your environment variables through
