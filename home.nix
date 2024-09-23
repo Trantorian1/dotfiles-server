@@ -49,6 +49,7 @@
 
   home.sessionPath = [
     "/home/trantorian/.local/bin"
+    "/home/trantorian/.starkli/bin/"
   ];
 
   # Let Home Manager install and manage itself.
